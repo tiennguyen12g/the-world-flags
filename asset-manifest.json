@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/the-world-flags/static/css/main.c013cb1f.css",
-    "main.js": "/the-world-flags/static/js/main.b7f88b8d.js",
-    "static/js/787.ae52b42c.chunk.js": "/the-world-flags/static/js/787.ae52b42c.chunk.js",
-    "index.html": "/the-world-flags/index.html",
-    "main.c013cb1f.css.map": "/the-world-flags/static/css/main.c013cb1f.css.map",
-    "main.b7f88b8d.js.map": "/the-world-flags/static/js/main.b7f88b8d.js.map",
-    "787.ae52b42c.chunk.js.map": "/the-world-flags/static/js/787.ae52b42c.chunk.js.map"
+    "main.css": "/world-flags/static/css/main.3ade3f5f.css",
+    "main.js": "/world-flags/static/js/main.2900c241.js",
+    "static/js/787.8bd71d99.chunk.js": "/world-flags/static/js/787.8bd71d99.chunk.js",
+    "index.html": "/world-flags/index.html",
+    "main.3ade3f5f.css.map": "/world-flags/static/css/main.3ade3f5f.css.map",
+    "main.2900c241.js.map": "/world-flags/static/js/main.2900c241.js.map",
+    "787.8bd71d99.chunk.js.map": "/world-flags/static/js/787.8bd71d99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c013cb1f.css",
-    "static/js/main.b7f88b8d.js"
+    "static/css/main.3ade3f5f.css",
+    "static/js/main.2900c241.js"
   ]
 }
