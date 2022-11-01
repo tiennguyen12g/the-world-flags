@@ -1,0 +1,106 @@
+.inside-header{
+    position: relative;
+    width: 100%;
+    height: 5em;
+    box-shadow: 0 5px 5px 0 gainsboro;
+    padding: 0px 40px;
+    left: 0;
+}
+.headerDark{
+    background-color: rgb(63,96,124);
+    color: #fff;
+}
+.headerLight{
+    background-color: white;
+    color: black;
+}
+.title-style{
+    position: relative;
+    max-width: 250px;
+    font-weight: 700;
+    top: 0.7em;
+    font-size: 1.5rem;
+}
+.toggle-mode{
+    position: relative;
+    width: 4em ;
+    height: 2em;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: rgb(43,109,166);
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 10px;
+}
+.circle{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-left: -6px;
+    top: 50%;
+    margin-top: -12px;
+
+}
+.toggleLight{
+    background-color: white;
+    transform: translateX(0px);
+    animation: toggleLight 0.3s linear 1;
+}
+.toggleDark{
+    background-color: black;
+    transform: translateX(26px);
+    animation: toggleDark 0.3s linear 1;
+}
+@keyframes toggleLight {
+    0%{transform: translateX(26px);}
+    100%{transform: translateX(0);}   
+}
+@keyframes toggleDark {
+    0%{transform: translateX(0px);}
+    100%{transform: translateX(26px);}   
+}
+
+.icon-effect{
+    position: absolute;
+    left: 36px;
+    margin-top: 3px;
+    scale: 1.2;
+    .faSun{
+        position: absolute;     
+        color: #fbde3c;
+    }
+    .faMoon{
+        position: absolute;
+        color: #fbde3c;
+    }
+}
+.sunLight{
+    visibility: hidden;
+    transform: translateX(0);
+}
+.moonLight{
+    visibility: visible;
+    transform: translateX(0);
+    animation: moontolight 0.3s linear 1;
+}
+.sunDark{
+    visibility: visible;
+    transform: translateX(-26px);
+    animation: suntodark 0.3s linear 1;
+}
+.moonDark{
+    visibility: hidden;
+    transform: translateX(-26px);
+}
+@keyframes suntodark {
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-26px);}   
+}
+@keyframes moontolight {
+    0%{transform: translateX(-26px);}
+    100%{transform: translateX(0px);}   
+}
+

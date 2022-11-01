@@ -1,0 +1,257 @@
+.search {
+  position: relative;
+  width: 33vw;
+  max-width: 320px;
+  height: 3em;
+  border: 0px solid transparent;
+  border-radius: 0.35em;
+  background-color: var(--light-element);
+  box-shadow: 0 0 0.5rem var(--light-shadow);
+  color: var(--light-color);
+}
+
+.inside-tippy {
+  width: 100%;
+  height: 100%;
+}
+
+.input-search {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: 5%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  caret-color: red;
+  box-shadow: none !important;
+  color: var(--light-color);
+}
+
+input::placeholder {
+  color: var(--light-color);
+}
+
+.faXmark {
+  position: relative;
+  left: -2.3em;
+  top: 0.2em;
+}
+
+.vertical-line {
+  position: absolute;
+  width: 0;
+  height: 70%;
+  border-left: 1px solid #706e6e;
+  float: right;
+  right: 2.5em;
+  top: 0.4em;
+}
+
+.faSearch {
+  position: absolute;
+  float: right;
+  right: 1.2em;
+  top: 0.9em;
+  scale: 1.3;
+}
+
+.box-tippy {
+  position: relative;
+  width: 33vw;
+  min-width: 280px;
+  max-width: 320px;
+  height: 20em;
+  max-height: 500px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--light-shadow);
+  background-color: var(--light-element);
+  color: var(--light-color);
+}
+.box-tippy .title {
+  position: relative;
+  top: 0.5em;
+  text-align: center;
+}
+.box-tippy .horizontal-line {
+  position: relative;
+  height: 0;
+  width: 86%;
+  border-top: 1px solid #a0a0a0;
+  left: 7%;
+  top: 0.5em;
+}
+.box-tippy .box-result {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  max-height: 450px;
+  overflow-y: overlay;
+  top: 1.5em;
+}
+.box-tippy .box-result .display-result {
+  position: relative;
+  display: block;
+  width: 86%;
+  height: 2.5em;
+  left: 7%;
+  margin-bottom: 0.5em;
+  margin-top: 0.2em;
+}
+.box-tippy .box-result .display-result:hover {
+  background-color: var(--light-hover);
+}
+.box-tippy .box-result .display-result img {
+  position: relative;
+  width: 2em;
+  height: 2em;
+  border-radius: 3px;
+  box-shadow: 0 0 8px #b3b2b2;
+  top: 3px;
+}
+.box-tippy .box-result .display-result span {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  left: 20px;
+  top: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.box-tippy .box-result p {
+  position: relative;
+  top: 1.2em;
+  left: 7%;
+  width: 80%;
+}
+
+@media only screen and (max-width:599px) {
+  .search {
+    position: relative;
+    width: 90%;
+    height: 4.5em;
+    min-width: 100%;
+    border: 0px solid transparent;
+    border-radius: 0.35em;
+    background-color: var(--light-element);
+    box-shadow: 0 0 0.5rem var(--light-shadow);
+    color: var(--light-color);
+  }
+  .search:hover {
+    width: 90%;
+    height: 4.5em;
+    min-width: 100%;
+  }
+
+  .inside-tippy {
+    width: 100%;
+    height: 100%;
+  }
+
+  .faSearch {
+    position: absolute;
+    float: right;
+    right: 1.2em;
+    top: 1.5em;
+    scale: 1.6;
+  }
+
+  input::placeholder {
+    color: var(--light-color);
+    font-size: 16px;
+  }
+
+  .input-search {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    caret-color: red;
+    box-shadow: none !important;
+    color: var(--light-color);
+    font-size: 16px;
+  }
+
+  .box-tippy {
+    position: relative;
+    width: 33vw;
+    min-width: 40px;
+    max-width: 320px;
+    height: 26em;
+    max-height: 500px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--light-shadow);
+    background-color: var(--light-element);
+    color: var(--light-color);
+  }
+  .box-tippy .title {
+    position: relative;
+    top: 0.5em;
+    text-align: center;
+    font-size: 16px;
+  }
+  .box-tippy .horizontal-line {
+    position: relative;
+    height: 0;
+    width: 86%;
+    border-top: 1px solid #a0a0a0;
+    left: 7%;
+    top: 0.8em;
+  }
+  .box-tippy .box-result {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    max-height: 450px;
+    overflow-y: overlay;
+    top: 1.5em;
+  }
+  .box-tippy .box-result .display-result {
+    position: relative;
+    display: block;
+    width: 86%;
+    height: 2.5em;
+    left: 7%;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+  }
+  .box-tippy .box-result .display-result:hover {
+    background-color: var(--light-hover);
+  }
+  .box-tippy .box-result .display-result img {
+    position: relative;
+    width: 2em;
+    height: 2em;
+    border-radius: 3px;
+    box-shadow: 0 0 8px #b3b2b2;
+    top: -3px;
+  }
+  .box-tippy .box-result .display-result span {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    left: 20px;
+    top: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .box-tippy .box-result p {
+    position: relative;
+    top: 1.2em;
+    left: 7%;
+    width: 80%;
+  }
+}

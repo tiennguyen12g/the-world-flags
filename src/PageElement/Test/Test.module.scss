@@ -1,0 +1,32 @@
+.style{
+}
+// input[type='checkbox']{
+//     width: 100px;
+//     height: 100px;
+//     background: orange;
+// }
+.container{
+    width: 500px;
+    height: 500px;
+}
+// input{
+//     accent-color: red;
+// }
+progress{
+    accent-color: green;
+} 
+.hello{
+    height: var(--test-resize);
+    color: purple;
+    background-color: var(--test-orange);
+}
+.hello2{
+    width: 300px;
+    height: 30px;
+    color: purple;
+    background-color: var(--background-color);
+}
+
+button{
+    width: fit-content;
+}
