@@ -39,7 +39,7 @@ function Search(){
                     page.value.map((country,i) =>{
                         let NewName = country.name.common.replace(/\s/g,'')
                         return(
-                            <Link to={`the-world-flag/page${page.id}/${NewName.toLowerCase()}`} className={cx('display-result')} key={i}>
+                            <Link to={`page${page.id}/${NewName.toLowerCase()}`} className={cx('display-result')} key={i}>
                                 <img src={country.flags.png} alt='Cannot load data'/>
                                 <span>{country.name.common}</span>
                             </Link>)

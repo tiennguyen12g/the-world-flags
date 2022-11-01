@@ -28,7 +28,7 @@ function HomeMain(){
             </div>
             <div className={cx('container')}>
                 <div className={cx('wrap-search-filter')}>
-                    <Search/>
+                    <Search />
                     <Filter />
                 </div>
                 <div className={cx('flag-item-show')}>
