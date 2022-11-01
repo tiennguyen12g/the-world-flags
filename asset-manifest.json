@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/the-world-flags/static/css/main.c013cb1f.css",
-    "main.js": "/the-world-flags/static/js/main.99bfc610.js",
+    "main.js": "/the-world-flags/static/js/main.e7c0ef44.js",
     "static/js/787.ae52b42c.chunk.js": "/the-world-flags/static/js/787.ae52b42c.chunk.js",
     "index.html": "/the-world-flags/index.html",
     "main.c013cb1f.css.map": "/the-world-flags/static/css/main.c013cb1f.css.map",
-    "main.99bfc610.js.map": "/the-world-flags/static/js/main.99bfc610.js.map",
+    "main.e7c0ef44.js.map": "/the-world-flags/static/js/main.e7c0ef44.js.map",
     "787.ae52b42c.chunk.js.map": "/the-world-flags/static/js/787.ae52b42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c013cb1f.css",
-    "static/js/main.99bfc610.js"
+    "static/js/main.e7c0ef44.js"
   ]
 }
