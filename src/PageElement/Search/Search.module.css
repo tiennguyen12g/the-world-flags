@@ -183,11 +183,9 @@ input::placeholder {
 
   .box-tippy {
     position: relative;
-    width: 33vw;
-    min-width: 40px;
-    max-width: 320px;
-    height: 26em;
-    max-height: 500px;
+    min-width: 394px;
+    min-height: 20em;
+    max-height: 30em;
     border: 1px solid transparent;
     border-radius: 5px;
     box-shadow: 0 0 10px var(--light-shadow);

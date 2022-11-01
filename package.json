@@ -1,5 +1,5 @@
 {
-    "name": "world-flag3",
+    "name": "world-flag5",
     "version": "0.1.0",
     "homepage": "https://tiennguyen12g.github.io/the-world-flags",
     "private": true,
@@ -24,7 +24,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "react-scripts build && cp build/index.html build/404.html",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },

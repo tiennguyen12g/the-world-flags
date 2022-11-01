@@ -2,12 +2,13 @@
   width: 100vw;
   height: 100vh;
   background-color: var(--light-background);
+  display: flex;
+  justify-content: center;
 }
 
 .wrap {
   position: relative;
-  top: 100px;
-  left: 100px;
+  top: 140px;
   width: 1200px;
   color: var(--light-color);
 }
@@ -29,7 +30,6 @@
   border: 0px solid gainsboro;
   width: 500px;
   height: 400px;
-  margin-right: 80px;
 }
 .flag img {
   position: absolute;

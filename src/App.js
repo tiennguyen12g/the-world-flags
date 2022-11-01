@@ -11,7 +11,7 @@ function App() {
   const arrayPageValue = datacontext.arrayPageValue
   return (
     <div className="App">
-      <BrowserRouter basename='the-world-flags'>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/*' element={<HomeMain />}/>
           {arrayPageValue.map((page) =>(

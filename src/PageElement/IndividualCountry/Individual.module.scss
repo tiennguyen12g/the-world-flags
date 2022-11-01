@@ -28,13 +28,14 @@ $desktop-width: 'screen and (min-width: 1025px)';
     width: 100vw;
     height: 100vh;
     background-color: var(--light-background);
+    display: flex;
+    justify-content: center;
 }
 .wrap{
     position: relative;
-    top: 100px;
-    left: 100px;
+    top: 140px;
     width: 1200px;
-    color: var(--light-color);
+    color: var(--light-color); 
 }
 .back {
     background-color: var(--light-element);
@@ -52,7 +53,6 @@ $desktop-width: 'screen and (min-width: 1025px)';
     border: 0px solid gainsboro;
     width: 500px;
     height: 400px;
-    margin-right: 80px;
     img{
         position: absolute;
         width: 500px;
@@ -64,7 +64,6 @@ $desktop-width: 'screen and (min-width: 1025px)';
     position: absolute;
     top: 100px;
     left: 600px;
-
 }
 .group1 p{
     position: relative;
