@@ -1,7 +1,7 @@
 {
     "name": "world-flag5",
     "version": "0.1.0",
-    "homepage": "https://tiennguyen12g.github.io/world-flags",
+    "homepage": "https://tiennguyen12g.github.io/the-world-flags",
     "private": true,
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.2.0",
